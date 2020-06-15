@@ -1,7 +1,4 @@
----
 
-
----
 
 <h4 id="enable-aws-inspector-scan">3. Enable AWS Inspector scan</h4>
 <p>a. From the Inspector service landing page, leave the defaults and click  <strong>Advanced setup</strong>.</p>
