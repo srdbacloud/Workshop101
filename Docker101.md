@@ -19,8 +19,16 @@ get-docker.sh
 ---
 Basic Commands:
 
+Run a Container: 
+```
+docker run nginx
+```
+ps - list containers
+```
+docker ps
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzU1OTIzN119
+eyJoaXN0b3J5IjpbLTQ1NzUzNjEzNCwyMDg3NTU5MjM3XX0=
 -->
