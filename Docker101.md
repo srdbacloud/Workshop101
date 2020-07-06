@@ -26,9 +26,12 @@ docker run nginx
 ps - list containers
 ```
 docker ps
+docker ps -a
 ```
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzUzNjEzNCwyMDg3NTU5MjM3XX0=
+eyJoaXN0b3J5IjpbMTM4OTgxMDg3M119
 -->
