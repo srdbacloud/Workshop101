@@ -28,10 +28,11 @@ ps - list containers
 docker ps
 docker ps -a
 ```
+stop a container:
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTgxMDg3M119
+eyJoaXN0b3J5IjpbLTEzNjM0NzIyODEsMTM4OTgxMDg3M119
 -->
