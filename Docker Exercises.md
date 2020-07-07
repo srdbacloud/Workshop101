@@ -1,3 +1,7 @@
+
+---
+Docker-Compose:
+
 First create a postgress database container called `db`, image `postgres`, environmental variable `POSTGRES_PASSWORD=mysecretpassword`
 
 ```
@@ -9,7 +13,7 @@ Next let's create a simple wordpress container called `wordpress`, image: `wordp
 ```
 docker run -d --name=wordpress --link db:db -p 8085:80 wordpress
 ```
-
+---
 
 Storage: 
 
@@ -43,7 +47,7 @@ Just run the same command as before. Here it is for your convinience:
 ```
  docker run -v /opt/data:/var/lib/mysql -d --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql
  ```
-
+---
 Networking:
 
 View Networks in 
@@ -89,5 +93,5 @@ Deploy a web application named `webapp`, using image `kodekloud/simple-webapp-my
 docker run --network=wp-mysql-network -e DB_Host=mysql-db -e DB_Password=db_pass123 -p 38080:8080 --name webapp --link mysql-db:mysql-db -d kodekloud/simple-webapp-mysql
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDM1OTA3N119
+eyJoaXN0b3J5IjpbLTc3NDAyODI1OV19
 -->
