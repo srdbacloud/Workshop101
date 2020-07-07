@@ -92,6 +92,17 @@ Deploy a web application named `webapp`, using image `kodekloud/simple-webapp-my
 ```
 docker run --network=wp-mysql-network -e DB_Host=mysql-db -e DB_Password=db_pass123 -p 38080:8080 --name webapp --link mysql-db:mysql-db -d kodekloud/simple-webapp-mysql
 ```
+
+
+Stop all Containers Shell Script
+ 
+```
+for a in `docker ps -a -q`
+do
+  echo "Stopping container - $a"
+  docker stop $a
+done
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDAyODI1OV19
+eyJoaXN0b3J5IjpbOTE4MjYxXX0=
 -->
