@@ -67,10 +67,19 @@ Create a new network named `wp-mysql-network` using the `bridge` driver. Allocat
 
 
 
-````
+```
 docker network create --driver bridge --subnet 182.18.0.1/24 --gateway 182.18.0.1 wp-mysql-network`
 ```
 
+
+Deploy a  `mysql`  database using the  `mysql:5.6`  image and name it  `mysql-db`. Attach it to the newly created network  `wp-mysql-network`
+
+Set the database password to use  `db_pass123`. The environment variable to set is  MYSQL_ROOT_PASSWORD
+
+
+```
+docker run -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db --network wp-mysql-network mysql:5.6
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzkxOTUzMiwtMTYxNjIzMzgxOF19
+eyJoaXN0b3J5IjpbLTUxNjUzMzQ3M119
 -->
