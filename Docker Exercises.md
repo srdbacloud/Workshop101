@@ -10,12 +10,14 @@ Next let's create a simple wordpress container called `wordpress`, image: `wordp
 docker run -d --name=wordpress --link db:db -p 8085:80 wordpress
 ```
 
+Run a  `mysql`  container named  `mysql-db`  using the  `mysql`  image. Set database password to  `db_pass123`
 
-
-
-
+Note: Remember to run it in the detached mode
+```
+docker run -d --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODE3MzkxNCwtMTgwODcyODY4OF19
+eyJoaXN0b3J5IjpbLTE2Mzk5MTg2NTUsLTE4MDg3Mjg2ODhdfQ
+==
 -->
