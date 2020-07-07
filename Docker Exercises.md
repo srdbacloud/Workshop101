@@ -82,7 +82,12 @@ docker run -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db --network wp-mys
 ```
 
 
+Deploy a web application named `webapp`, using image `kodekloud/simple-webapp-mysql`. Expose port to 38080 on the host. The application takes an environment variable `DB_Host` that has the hostname of the mysql database. Make sure to attach it to the newly created network `wp-mysql-network`
 
+
+```
+docker run --network=wp-mysql-network -e DB_Host=mysql-db -e DB_Password=db_pass123 -p 38080:8080 --name webapp --link mysql-db:mysql-db -d kodekloud/simple-webapp-mysql
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDc2MTM2NywtNTE2NTMzNDczXX0=
+eyJoaXN0b3J5IjpbLTcyMDM1OTA3N119
 -->
