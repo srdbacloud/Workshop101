@@ -80,6 +80,9 @@ Set the database password to use  `db_pass123`. The environment variable to set 
 ```
 docker run -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db --network wp-mysql-network mysql:5.6
 ```
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjUzMzQ3M119
+eyJoaXN0b3J5IjpbLTUyMDc2MTM2NywtNTE2NTMzNDczXX0=
 -->
