@@ -39,6 +39,8 @@ Just run the same command as before. Here it is for your convinience:
 ```
  docker run -v /opt/data:/var/lib/mysql -d --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql
  ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDM2MzE2NV19
+eyJoaXN0b3J5IjpbNTc2NDI3MTI5LDE3NzQzNjMxNjVdfQ==
 -->
