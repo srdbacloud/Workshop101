@@ -70,6 +70,7 @@ Create a new network named `wp-mysql-network` using the `bridge` driver. Allocat
 ````
 docker network create --driver bridge --subnet 182.18.0.1/24 --gateway 182.18.0.1 wp-mysql-network`
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTYyMzM4MThdfQ==
+eyJoaXN0b3J5IjpbLTY4MzkxOTUzMiwtMTYxNjIzMzgxOF19
 -->
