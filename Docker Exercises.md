@@ -17,7 +17,9 @@ Note: Remember to run it in the detached mode
 docker run -d --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql
 ```
 
+sh get-data.sh
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk5MTg2NTUsLTE4MDg3Mjg2ODhdfQ
-==
+eyJoaXN0b3J5IjpbLTY1Mzk5NzI3NCwtMTYzOTkxODY1NSwtMT
+gwODcyODY4OF19
 -->
