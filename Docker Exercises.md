@@ -31,6 +31,15 @@ Run a mysql container again, but this time map a volume to the container so that
 ```
 `docker run -v /opt/data:/var/lib/mysql -d --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql`.
 ```
+
+
+_  
+skip_next_
+
+Disaster strikes.. again! And the database crashed again. But this time we have the data stored at  `/opt/data`  directory. Re-deploy a new mysql instance using the same options as before.
+
+Just run the same command as before. Here it is for your convinience: 
+ `docker run -v /opt/data:/var/lib/mysql -d --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2NjE3MDJdfQ==
+eyJoaXN0b3J5IjpbMTU4OTc5MTY5Niw3MTY2MTcwMl19
 -->
