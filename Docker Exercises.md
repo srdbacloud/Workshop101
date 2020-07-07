@@ -24,9 +24,7 @@ docker exec mysql-db mysql -db_pass123 -e 'use db_name; slect * from table_name'
 
 
 
-Run a mysql container again, but this time map a volume to the container so that the data stored by the container is stored at  `/opt/data`  on the host.
-
-Use the same name :  `mysql-db`  and same password:  `db_pass123`  as before. Mysql stores data at  `/var/lib/mysql`  inside the container.
+Run a mysql container again, but this time map a volume to the container so that the data stored by the container is stored at  `/opt/data`  on the host. Use the same name :  `mysql-db`  and same password:  `db_pass123`  as before. Mysql stores data at  `/var/lib/mysql`  inside the container.
 
 
 
@@ -34,6 +32,5 @@ Use the same name :  `mysql-db`  and same password:  `db_pass123`  as before. My
 `docker run -v /opt/data:/var/lib/mysql -d --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql`.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTg2OTU4LC0xNjM5OTE4NjU1LC0xOD
-A4NzI4Njg4XX0=
+eyJoaXN0b3J5IjpbNzE2NjE3MDJdfQ==
 -->
