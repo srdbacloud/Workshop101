@@ -56,9 +56,20 @@ Find the Subnet associated with the bridge network:
 docker network inspect bridge
 ```
 
-
+Run a container named `alpine-2` using the `alpine` image and attach it to the `none` network
 
 ```
+docker run --name alpine-2 --network=none alpine
+```
+
+Create a new network named `wp-mysql-network` using the `bridge` driver. Allocate subnet `182.18.0.1/24`. Configure `Gateway 182.18.0.1`
+
+
+
+
+````
+docker network create --driver bridge --subnet 182.18.0.1/24 --gateway 182.18.0.1 wp-mysql-network`
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDU4NjI2OTQsMTE4OTczMjI1OF19
+eyJoaXN0b3J5IjpbLTE2MTYyMzM4MThdfQ==
 -->
