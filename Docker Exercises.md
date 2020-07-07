@@ -16,12 +16,12 @@ Note: Remember to run it in the detached mode
 ```
 docker run -d --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql
 ```
-TO ge
+TO get data from saved in db  docker
 
 ```
 docker exec mysql-db mysql -db_pass123 -e 'use db_name; slect * from table_name'
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDY3MTE0NiwtMTYzOTkxODY1NSwtMT
+eyJoaXN0b3J5IjpbMTQzNzA0Nzk1OCwtMTYzOTkxODY1NSwtMT
 gwODcyODY4OF19
 -->
