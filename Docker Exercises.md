@@ -50,12 +50,11 @@ View Networks in
 
 ```docker network ls```
 
-
+Find the Subnet associated with the bridge network: 
 
 ```
 docker network inspect bridge
-`
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMwODMxOTEsMjA1MzQ4MzA2MiwxNz
-c0MzYzMTY1XX0=
+eyJoaXN0b3J5IjpbMTE4OTczMjI1OF19
 -->
