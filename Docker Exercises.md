@@ -51,6 +51,11 @@ View Networks in
 ```docker network ls```
 
 
+
+```
+docker network inspect bridge
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzQ4MzA2MiwxNzc0MzYzMTY1XX0=
+eyJoaXN0b3J5IjpbLTExMzMwODMxOTEsMjA1MzQ4MzA2MiwxNz
+c0MzYzMTY1XX0=
 -->
