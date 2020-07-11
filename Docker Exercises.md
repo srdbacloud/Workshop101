@@ -142,7 +142,12 @@ services:
 volumes:
    jenkins_home:
 ```
+
+
+
+
+docker node ls
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzc3OTM4NDUsODAwMDc5ODM3LDkxOD
-I2MV19
+eyJoaXN0b3J5IjpbLTEzNTY4ODY5MzIsLTE4Nzc3OTM4NDUsOD
+AwMDc5ODM3LDkxODI2MV19
 -->
