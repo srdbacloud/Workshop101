@@ -152,8 +152,15 @@ docker node ls
 Create a service called  `simple-web-app`  with image  `kodekloud/webapp-color`,  `3`  replicas. The service should be published on port 8083 and make use of environment variable  `APP_COLOR=pink`
 
 the webapp runs on container port  `8080`
+```
+docker service create --name simple-web-app --replicas 3 -p 8083:8080 -e APP_COLOR=pink kodekloud/webapp-color
+```
 
+Scale to 4
+```
+docker service update simple-web-app --replicas 4
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk5MTMyODQsMjIwNzExMzExLC0xOD
-c3NzkzODQ1LDgwMDA3OTgzNyw5MTgyNjFdfQ==
+eyJoaXN0b3J5IjpbMTM4ODM4NjQ2LDIyMDcxMTMxMSwtMTg3Nz
+c5Mzg0NSw4MDAwNzk4MzcsOTE4MjYxXX0=
 -->
