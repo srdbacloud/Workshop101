@@ -106,7 +106,7 @@ done
 
 
 
-
+Wordpress and Postgres
 
 ```
 version: '2'
@@ -125,6 +125,8 @@ services:
 
 ```
 
+Jenkins Docker
+
 
 ```
 version: '3.0'
@@ -141,6 +143,6 @@ volumes:
    jenkins_home:
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTcyMjk5Niw4MDAwNzk4MzcsOTE4Mj
-YxXX0=
+eyJoaXN0b3J5IjpbLTE4Nzc3OTM4NDUsODAwMDc5ODM3LDkxOD
+I2MV19
 -->
