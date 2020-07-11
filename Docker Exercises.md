@@ -125,9 +125,22 @@ services:
 
 ```
 
-```
 
 ```
+version: '3.0'
+services: 
+   jenkins:
+      image: jenkins/jenkins:lts
+      ports:
+        - 8089:8080
+        - 50000:50000
+      volumes:
+        - jenkins_home:/var/jenkins_home
+
+volumes:
+   jenkins_home:
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwMDc5ODM3LDkxODI2MV19
+eyJoaXN0b3J5IjpbMTMxNTcyMjk5Niw4MDAwNzk4MzcsOTE4Mj
+YxXX0=
 -->
