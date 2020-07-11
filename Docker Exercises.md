@@ -143,11 +143,14 @@ volumes:
    jenkins_home:
 ```
 
+How many nodes are part of Docker swarm currently?
 
-
-
+```
 docker node ls
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY4ODY5MzIsLTE4Nzc3OTM4NDUsOD
-AwMDc5ODM3LDkxODI2MV19
+eyJoaXN0b3J5IjpbMjIwNzExMzExLC0xODc3NzkzODQ1LDgwMD
+A3OTgzNyw5MTgyNjFdfQ==
 -->
