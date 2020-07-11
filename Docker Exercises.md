@@ -103,6 +103,27 @@ do
   docker stop $a
 done
 ```
+
+
+
+
+
+```
+version: '2'
+services:
+  db:
+      image: "postgres"
+      environment:
+        - POSTGRES_PASSWORD=mysecretpassword
+
+  wordpress:
+    image: "wordpress"
+    ports:
+      - "8085:80"
+    links:
+      - db
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4MjYxXX0=
+eyJoaXN0b3J5IjpbLTIwMTk2NTE1NSw5MTgyNjFdfQ==
 -->
