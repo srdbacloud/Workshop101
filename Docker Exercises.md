@@ -149,8 +149,11 @@ How many nodes are part of Docker swarm currently?
 docker node ls
 ```
 
+Create a service called  `simple-web-app`  with image  `kodekloud/webapp-color`,  `3`  replicas. The service should be published on port 8083 and make use of environment variable  `APP_COLOR=pink`
+
+the webapp runs on container port  `8080`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwNzExMzExLC0xODc3NzkzODQ1LDgwMD
-A3OTgzNyw5MTgyNjFdfQ==
+eyJoaXN0b3J5IjpbLTE3ODk5MTMyODQsMjIwNzExMzExLC0xOD
+c3NzkzODQ1LDgwMDA3OTgzNyw5MTgyNjFdfQ==
 -->
