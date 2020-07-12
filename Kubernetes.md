@@ -44,6 +44,13 @@ TO find the correct version
 ```
 kubectl explain replicaset|grep VERSION
 ```
+Delete replicaset
+```
+kubectl delete replicaset
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzcyNDUwMywxMjU0OTAzNjE3XX0=
+eyJoaXN0b3J5IjpbLTk1OTA5NzA4OSwxNjU3NzI0NTAzLDEyNT
+Q5MDM2MTddfQ==
 -->
