@@ -48,9 +48,11 @@ Delete replicaset
 ```
 kubectl delete replicaset
 ```
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTA5NzA4OSwxNjU3NzI0NTAzLDEyNT
+eyJoaXN0b3J5IjpbMjE0MzI1NDE1NywxNjU3NzI0NTAzLDEyNT
 Q5MDM2MTddfQ==
 -->
