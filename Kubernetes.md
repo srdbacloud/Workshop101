@@ -40,6 +40,10 @@ kubectl get replicaset
 ```
 kubectl describe replicaset
 ```
+TO find the correct version
+```
+kubectl explain replicaset|grep VERSION
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDkwMzYxN119
+eyJoaXN0b3J5IjpbMTY1NzcyNDUwMywxMjU0OTAzNjE3XX0=
 -->
