@@ -28,10 +28,10 @@ Create a new pod with the name 'redis' and with the image 'redis123'
 ```
 kubectl run redis --image=redis123
 ```
-Since redis123 is wrong image name ed
+Since redis123 is wrong image name editing it
 ```
 kubectl edit pod redis
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjkzNzE5OCwtMjA3MTc2OTU2MV19
+eyJoaXN0b3J5IjpbLTY5NDk4MTg5MF19
 -->
