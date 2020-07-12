@@ -53,9 +53,10 @@ kubectl describe deployment'
 ```
 
 
-F
-`kubectl create -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml`
+For setting up your own network using flannel
+```
+kubectl create -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTI2ODM2NiwtNDAxMjEyNTAwLDIxND
-MyNTQxNTcsMTY1NzcyNDUwMywxMjU0OTAzNjE3XX0=
+eyJoaXN0b3J5IjpbLTE2MjYwNjczMTVdfQ==
 -->
