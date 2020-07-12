@@ -48,6 +48,7 @@ Delete replicaset
 ```
 kubectl delete replicaset
 ```
+```
 kubectl describe deployment'
 ```
 
@@ -55,6 +56,6 @@ kubectl describe deployment'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTU0OTUxNiwyMTQzMjU0MTU3LDE2NT
+eyJoaXN0b3J5IjpbLTQwMTIxMjUwMCwyMTQzMjU0MTU3LDE2NT
 c3MjQ1MDMsMTI1NDkwMzYxN119
 -->
