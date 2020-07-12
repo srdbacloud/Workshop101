@@ -36,7 +36,10 @@ kubectl edit pod redis
 
 ```
 kubectl get replicaset
-````
+```
+```
+kubectl describe replicaset
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjg0MjcwNzAsLTY5NDk4MTg5MF19
+eyJoaXN0b3J5IjpbMTI1NDkwMzYxN119
 -->
