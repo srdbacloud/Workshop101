@@ -53,9 +53,9 @@ kubectl describe deployment'
 ```
 
 
-
-
+F
+`kubectl create -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTIxMjUwMCwyMTQzMjU0MTU3LDE2NT
-c3MjQ1MDMsMTI1NDkwMzYxN119
+eyJoaXN0b3J5IjpbMjEzNTI2ODM2NiwtNDAxMjEyNTAwLDIxND
+MyNTQxNTcsMTY1NzcyNDUwMywxMjU0OTAzNjE3XX0=
 -->
