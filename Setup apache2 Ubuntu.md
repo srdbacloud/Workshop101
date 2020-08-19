@@ -1,7 +1,3 @@
----
-
-
----
 
 <p>First, SSH remote into your EC2 instance using Putty and add the Apache2 system packages below, type command:</p>
 <pre><code>sudo add-apt-repository ppa:ondrej/apache2
